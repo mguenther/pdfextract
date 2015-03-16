@@ -1,0 +1,2 @@
+include pdfextract-runner.py README.rst LICENSE
+recursive-include pdfextract *
