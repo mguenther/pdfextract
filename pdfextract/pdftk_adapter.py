@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 """Provides the means to extract PDF pages (multiple ranges) from
-a source PDF using PDFKT as an external tool."""
+a source PDF using PDFTK as an external tool."""
 
 import os
 import sys
