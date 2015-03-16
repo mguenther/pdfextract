@@ -22,21 +22,21 @@ $ python setup.py install
 1. Extract pages from a single, continuous page range (pages 3 to 5) from source.pdf and save the output to target.pdf.
 
 
-```
-pdfextract source.pdf target.pdf 3-5
-```
+	```
+	pdfextract source.pdf target.pdf 3-5
+	```
 
 2. Extract pages from discontinuous page ranges (pages 3 to 5 and 7 to 12) from source.pdf and save the output to target.pdf. This will automatically yield several target PDFs, each suffixed with the respective page range.
 
-```
-pdfextract source.pdf target.pdf 3-5,7-12
-```
+	```
+	pdfextract source.pdf target.pdf 3-5,7-12
+	```
 
 3. Extract pages from discontinuous page ranges (pages 3 to 5 and 7 to 12) from source.pdf and save the output to a single target.pdf.
 
-```
-pdfextract source.pdf target.pdf 3-5,7-12 --join
-```
+	```
+	pdfextract source.pdf target.pdf 3-5,7-12 --join
+	```
 
 # License
 
